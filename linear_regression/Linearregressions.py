@@ -26,3 +26,6 @@ class LinearRegression:
         
         for _ in range(self.epochs):
             self.update_weights(X, Y)
+    
+    def get_slope(self):
+        return self.weights,self.bias
